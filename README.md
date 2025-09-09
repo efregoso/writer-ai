@@ -10,32 +10,33 @@ particularly when integrated into the creative process as an "editor",
 creative liberty over the work.
 
 My goal is to make this application run locally using AI models offered
-on the internet, so **none of the author's data is being used to train any 
-AI models involved.**  
+on the internet, so **none of the author's input is being used to train any 
+of the AI models involved,** protecting the creative integrity of your work.  
 
 
 Planned features include:
 
-* Browser integration for side-by-side story research
-* Built-in dictionary and thesaurus on word highlight
-* (Optional) Next word suggestions
-* Writing flow, style, and continuity analysis
-* AI review and suggestions
-* Save notes / pics, organize them into folders
-* Character / Plot / Location Bibles (database)
-* Search files
-* Export as PDF, TXT, DOCX
-* Widget / popout
+* **Side-by-side browser integration** fo~~~~r note-taking and fact-checking
+* **Built-in dictionary and thesaurus** on word highlight or lookup
+* **Optional next-word suggestions**
+* **Writing flow, style, fact-checking, and continuity analysis**
+* **AI beta reader reviews** and suggestions
+* **Save notes / pics**, organize them into folders
+* **Character / Plot / Location Bibles**
+* **Spotify playlist integration** for accessing your writing playlists
+* **Search** files
+* **Export as PDF, TXT, or DOCX**
+* **Pop-out widget** for continued writing without focusing on the web window
 
 
 ## Current tech stack
 * **Database:** [PostgreSQL](https://www.postgresql.org)
 * **AI Models:** [Hugging Face](https://huggingface.co/models)
 * **Backend server:**
-    * Python
-        * Testing: [unittest library](https://docs.python.org/3/library/unittest.html)
-    * Java
-        * Testing: [jUnit](https://docs.junit.org/current/user-guide)
+    * Node.js
+        * Testing:
+            * [Storybook](https://storybook.js.org)
+            * [Jasmine](https://jasmine.github.io)
 * **Frontend:**
     * React
         * Testing:
@@ -47,7 +48,21 @@ Planned features include:
 
 ## Dev Notes
 
+* ### 2025 September 9th
+    #### Today
+    * Set up mock database for manual testing of backend
+    * SQL refresher
+    * Learning about Node.js PostgreSQL connector library
+
+    #### Next Steps
+    * Begin building out backend in TypeScript and/or Python 
+      (really want to get some Python in there again)
+    * Experiment with accessing entries in database using the connector
+
+
 * ### 2025 September 8th
+    #### Today:
     * Created GitHub repo for Writer.AI
     * Configuring PostgreSQL for use with Python/Java backends
     * Created mock Character database for use in local testing
+    * Added README.md to repo with plans for features.
