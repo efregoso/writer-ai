@@ -16,7 +16,7 @@ of the AI models involved,** protecting the creative integrity of your work.
 
 Planned features include:
 
-* **Side-by-side browser integration** fo~~~~r note-taking and fact-checking
+* **Side-by-side browser integration** for note-taking and fact-checking
 * **Built-in dictionary and thesaurus** on word highlight or lookup
 * **Optional next-word suggestions**
 * **Writing flow, style, fact-checking, and continuity analysis**
@@ -47,6 +47,19 @@ Planned features include:
 
 
 ## Dev Notes
+
+* ### 2025 September 10th
+  #### Today
+    * Established connection to a mock database
+    * Learned more about available Node.js modules
+    * Bootstrapped the React GUI using Next.js
+
+  #### Next Steps
+    * Continue building out backend in with TypeScript / Node.js
+    * Connect the backend to the frontend to display mock data
+    * Start building out the frontend in React, probably starting with the big RTF area.
+    * Decide if using a Client or Pool object to connect to database, 
+    based on user needs and features. 
 
 * ### 2025 September 9th
     #### Today
