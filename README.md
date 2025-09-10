@@ -38,7 +38,7 @@ Planned features include:
             * [Storybook](https://storybook.js.org)
             * [Jasmine](https://jasmine.github.io)
 * **Frontend:**
-    * React
+    * React, Next.js
         * Testing:
             * [Storybook](https://storybook.js.org)
             * [Jasmine](https://jasmine.github.io) 
@@ -62,19 +62,19 @@ Planned features include:
     based on user needs and features. 
 
 * ### 2025 September 9th
-    #### Today
+  #### Today
     * Set up mock database for manual testing of backend
     * SQL refresher
     * Learning about Node.js PostgreSQL connector library
 
-    #### Next Steps
+  #### Next Steps
     * Begin building out backend in TypeScript and/or Python 
       (really want to get some Python in there again)
     * Experiment with accessing entries in database using the connector
 
 
 * ### 2025 September 8th
-    #### Today:
+  #### Today:
     * Created GitHub repo for Writer.AI
     * Configuring PostgreSQL for use with Python/Java backends
     * Created mock Character database for use in local testing
