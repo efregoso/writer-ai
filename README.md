@@ -19,19 +19,19 @@ Planned features include:
 * **Side-by-side browser integration** for note-taking and fact-checking
 * **Built-in dictionary and thesaurus** on word highlight or lookup
 * **Optional next-word suggestions**
-* **Writing flow, style, fact-checking, and continuity analysis**
-* **AI beta reader reviews** and suggestions
+* **AI beta reader**, including **writing flow, style, fact-checking, and**
+**continuity analysis**
 * **Save notes / pics**, organize them into folders
 * **Character / Plot / Location Bibles**
 * **Spotify playlist integration** for accessing your writing playlists
-* **Search** files
+* **Search** saved notes, files, and story bible entries
 * **Export as PDF, TXT, or DOCX**
 * **Pop-out widget** for continued writing without focusing on the web window
 
 
 ## Current tech stack
 * **Database:** [PostgreSQL](https://www.postgresql.org)
-* **AI Models:** [Hugging Face](https://huggingface.co/models)
+* **ML models / LLMs:** [Hugging Face](https://huggingface.co/models)
 * **Backend server:**
     * Node.js
         * Testing:
@@ -41,41 +41,57 @@ Planned features include:
     * React, Next.js
         * Testing:
             * [Storybook](https://storybook.js.org)
-            * [Jasmine](https://jasmine.github.io) 
+            * [Jasmine](https://jasmine.github.io)
 * **Containerization:**
     * [Docker](https://www.docker.com)
 
 
 ## Dev Notes
 
-* ### 2025 September 10th
-  #### Today
-    * Established connection to a mock database
-    * Learned more about available Node.js modules
-    * Bootstrapped the React GUI using Next.js
+### 2025 September 12th
+#### Today
+  * Scaffolded main home page, text area, and sidebar components
+  * Flexbox refresher (I was recommended [Flexbox Froggy](https://flexboxfroggy.com) by a manager back when I first started web development, and it still rocks.)
+  * Reviewing documentation on Next.js routing
 
-  #### Next Steps
-    * Continue building out backend in with TypeScript / Node.js
-    * Connect the backend to the frontend to display mock data
-    * Start building out the frontend in React, probably starting with the big RTF area.
-    * Decide if using a Client or Pool object to connect to database, 
-    based on user needs and features. 
+#### Next Steps
+  * Find out how CSS plays with React, and begin implementing component stylings
+  * Look into [React Material UI](https://mui.com/material-ui), in particular for a rich text editor
+  * Order the sidebar buttons in a flexbox, one on top of the other on the left hand side of the window
+  * Expand the main text area into the "central panel"
+  * Implement routing for existing components and pages
 
-* ### 2025 September 9th
-  #### Today
-    * Set up mock database for manual testing of backend
-    * SQL refresher
-    * Learning about Node.js PostgreSQL connector library
+---
 
-  #### Next Steps
-    * Begin building out backend in TypeScript and/or Python 
-      (really want to get some Python in there again)
-    * Experiment with accessing entries in database using the connector
+### 2025 September 10th
+#### Today
+  * Established connection to a mock database
+  * Learned more about available Node.js modules
+  * Bootstrapped the React GUI using Next.js
 
+#### Next Steps
+  * Continue building out backend with TypeScript / Node.js
+  * Connect  backend to frontend to display mock data
+  * Start building out the frontend in React, probably starting with the big RTF area
+  * Decide if using a Client or Pool object to connect to database, based on user needs and features. 
 
-* ### 2025 September 8th
-  #### Today:
-    * Created GitHub repo for Writer.AI
-    * Configuring PostgreSQL for use with Python/Java backends
-    * Created mock Character database for use in local testing
-    * Added README.md to repo with plans for features.
+---
+
+### 2025 September 9th
+#### Today
+  * Set up mock database for manual testing of backend
+  * SQL refresher
+  * Learning about Node.js PostgreSQL connector library
+
+#### Next Steps
+  * Begin building out backend in TypeScript and/or Python (really want to get some Python in there again)
+  * Experiment with accessing entries in database using the connector
+
+---
+
+### 2025 September 8th
+#### Today:
+  * Created GitHub repo for Writer.AI
+  * Configuring PostgreSQL for use with Python/Java backends
+  * Created mock Character database for use in local testing
+  * Added README.md to repo with plans for features.
