@@ -1,3 +1,2 @@
-.idea/modules.xml
-.idea/modules.xml
-gui/gui.iml
+.idea/
+*.iml

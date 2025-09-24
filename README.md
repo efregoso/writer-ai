@@ -48,6 +48,24 @@ Planned features include:
 
 ## Dev Notes
 
+### 2025 September 24th
+
+#### Today
+  * Added "Saved Notes" to sidebar buttons.
+  * Upload new gitignore.
+
+#### Next Steps
+  * Figure out how to adjust the size of a column in the grid layout
+  * Then, decide on flex or grid CSS layout
+  * Expand the main text area into the "central panel"
+  * Implement routing for existing components and pages
+  * Look into [React Material UI](https://mui.com/material-ui), in particular for a rich text editor
+  * Look into React-specific accessibility features
+  * Bundle sidebar into an expandable hamburger menu
+  * Replace sidebar button names with icons and tooltips
+
+---
+
 ### 2025 September 23rd
 
 #### Today

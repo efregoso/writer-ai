@@ -45,6 +45,13 @@ export const sidebarButtons: SidebarButton[] = [
         linkType: LinkType.INTERNAL,
     },
     {
+        id: 'saved-notes-panel-toggle',
+        label: 'Saved Notes',
+        ariaLabel: 'A button for toggling the saved notes panel',
+        routerLink: 'https://www.bing.com',
+        linkType: LinkType.INTERNAL,
+    },
+    {
         id: 'popout-widget-toggle',
         label: 'Popout panel',
         ariaLabel: 'A toggle button for the Writer.AI widget',
