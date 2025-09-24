@@ -17,11 +17,37 @@ export enum LinkType {
 export interface SidebarButton {
     id: string;
     label: string;
+    iconHref?: string;
+    className?: string;
+    containerClassName?: string,
     ariaLabel: string;
     routerLink: string;
     linkType: LinkType;
 }
 
+/**
+ * The className of the sidebar button container
+ */
+export const SIDEBAR_BUTTON_CONTAINER_CLASSNAME = "sidebar-button-container";
+
+/**
+ * The className of all sidebar buttons
+ */
+export const SIDEBAR_BUTTON_CLASSNAME = "sidebar-button";
+
+/**
+ * The className of the hide sidebar button container
+ */
+export const HIDE_SIDEBAR_TOGGLE_CONTAINER_CLASSNAME = "hide-sidebar-toggle-container";
+
+/**
+ * The className of the hide sidebar button
+ */
+export const HIDE_SIDEBAR_TOGGLE_CLASSNAME = "hide-sidebar-toggle"
+
+/**
+ * Collection of buttons that appear in the sidebar
+ */
 export const sidebarButtons: SidebarButton[] = [
     {
         id: 'home-button',
@@ -31,9 +57,9 @@ export const sidebarButtons: SidebarButton[] = [
         linkType: LinkType.INTERNAL,
     },
     {
-        id: 'browser-panel-toggle',
-        label: 'Browser',
-        ariaLabel: 'A button for toggling the integrated browser panel',
+        id: 'research-panel-toggle',
+        label: 'Research',
+        ariaLabel: 'A button for toggling the integrated research resources panel',
         routerLink: 'https://www.opera.com',
         linkType: LinkType.INTERNAL,
     },
@@ -52,9 +78,11 @@ export const sidebarButtons: SidebarButton[] = [
         linkType: LinkType.INTERNAL,
     },
     {
-        id: 'popout-widget-toggle',
-        label: 'Popout panel',
-        ariaLabel: 'A toggle button for the Writer.AI widget',
+        id: 'hide-sidebar-toggle',
+        label: 'Hide sidebar',
+        className: HIDE_SIDEBAR_TOGGLE_CLASSNAME,
+        containerClassName: HIDE_SIDEBAR_TOGGLE_CONTAINER_CLASSNAME,
+        ariaLabel: 'A toggle button to hide the sidebar',
         routerLink: 'https://www.writing.com',
         linkType: LinkType.INTERNAL,
     },

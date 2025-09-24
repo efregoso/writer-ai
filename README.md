@@ -48,6 +48,25 @@ Planned features include:
 
 ## Dev Notes
 
+### 2025 September 26th
+
+#### Today
+  * Convert "Popout panel" --> "Hide sidebar" and change stylings for the button to distinguish it from the others
+  * Refactor sidebar.css
+
+#### Next Steps
+  * Figure out how to adjust the size of a column in the grid layout
+  * Then, decide on flex or grid CSS layout
+  * Expand the main text area into the "central panel"
+  * Implement routing for existing components and pages
+  * Look into [React Material UI](https://mui.com/material-ui), in particular for a rich text editor
+  * Look into React-specific accessibility features
+  * Bundle sidebar into an expandable hamburger menu
+  * Replace sidebar button names with icons and tooltips
+  * Implement stylings for MainTextArea and Sidebar components
+
+---
+
 ### 2025 September 24th
 
 #### Today
