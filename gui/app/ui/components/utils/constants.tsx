@@ -2,11 +2,18 @@
  * A utility file containing various constants and helper classes/functions used in Writer.AI
  */
 
+/**
+ * ---------------- GENERAL ----------------
+ */
 export enum LinkType {
     INTERNAL,
     EXTERNAL,
 }
 
+
+/**
+ * ---------------- SIDEBAR ----------------
+ */
 export interface SidebarButton {
     id: string;
     label: string;

@@ -48,6 +48,40 @@ Planned features include:
 
 ## Dev Notes
 
+### 2025 September 23rd
+
+#### Today
+  * Learn about CSS grid layout and try it out for the main page
+  * Implement stylings for MainTextArea and Sidebar components
+  * Order the sidebar buttons, one on top of the other, on the left hand side of the window
+
+#### Next Steps
+  * Figure out how to adjust the size of a column in the grid layout
+  * Then, decide on flex or grid CSS layout
+  * Expand the main text area into the "central panel"
+  * Implement routing for existing components and pages
+  * Look into [React Material UI](https://mui.com/material-ui), in particular for a rich text editor
+  * Look into React-specific accessibility features
+  * Bundle sidebar into an expandable hamburger menu
+  * Replace sidebar button names with icons and tooltips
+
+---
+
+### 2025 September 22nd
+
+* Returned from sick leave
+
+#### Today
+  * Began implementing component stylings
+  * Began ordering the sidebar buttons in a flexbox, one on top of the other on the left hand side of the window
+
+#### Next Steps
+  * Look into [React Material UI](https://mui.com/material-ui), in particular for a rich text editor
+  * Expand the main text area into the "central panel"
+  * Implement routing for existing components and pages
+
+---
+
 ### 2025 September 12th
 #### Today
   * Scaffolded main home page, text area, and sidebar components

@@ -1,4 +1,30 @@
-.sidebar-container {
-    display: fixed;
-    right: 0px;
+div.sidebar-container {
+    /* TODO: Test out some of these layouts as well */
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around; */
+   
+    background-color: var(--lightgrey);
+    opacity: 60%;
+    color: black;
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    word-wrap: break-word;
+    margin: 0px 0px;
+}
+
+div.sidebar-button-container {
+    text-align: center;
+    border-color: grey;
+    border-width: 1px;
+    cursor: pointer;
+    /* TODO: Want to have this adjust based on viewport size. */
+    padding: 20px 10px;
+}
+
+button.sidebar-button {
+    cursor: inherit;
 }
