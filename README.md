@@ -48,6 +48,25 @@ Planned features include:
 
 ## Dev Notes
 
+### 2025 October 1st
+
+#### Today
+  * Look into [React Material UI](https://mui.com/material-ui), in particular for a rich text editor
+  * Integrate TipTap's rich text editor as MainTextArea's primary element
+  * Expand the main text area into the "central panel"
+
+#### Next Steps
+  * Initialize Storybook and write tests for all existing components.
+  * Find how to adjust the size of a column in the grid layout
+  * Then, decide on flex or grid CSS layout
+  * Implement routing for existing components and pages
+  * Look into React-specific accessibility features
+  * Bundle sidebar into an expandable hamburger menu
+  * Replace sidebar button names with icons and tooltips
+  * Implement stylings for MainTextArea and Sidebar components
+
+---
+
 ### 2025 September 26th
 
 #### Today

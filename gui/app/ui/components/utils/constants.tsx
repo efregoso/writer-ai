@@ -87,3 +87,10 @@ export const sidebarButtons: SidebarButton[] = [
         linkType: LinkType.INTERNAL,
     },
 ];
+
+/**
+ * ---------------- MAIN TEXT AREA ----------------
+ */
+export const MAIN_TEXT_EDITOR_CONTAINER_ID = 'main-text-editor-container';
+
+export const MAIN_TEXT_EDITOR_ID = 'main-text-editor';

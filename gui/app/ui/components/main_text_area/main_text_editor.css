@@ -3,10 +3,10 @@
     height: 100%;
 }
 
-textarea.main-text-editor {
+.main-text-editor {
+    /* COLOR FOR TESTING ONLY */
+    background-color: var(--offwhite);
+    color: black;
     height: 100%;
     width: 100%;
-    color: black;
-    /* FOR TESTING ONLY */
-    background-color: var(--offwhite);
 }
