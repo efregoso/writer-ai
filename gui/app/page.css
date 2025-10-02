@@ -1,32 +1,32 @@
 /* CSS global variables */
 :root {
-    --offwhite: #ededed;
-    --white: #ffffff;
-    --skyblue: #87ceeb;
     --lightgrey: #dbdbdb;
+    --offwhite: #ededed;
+    --skyblue: #87ceeb;
+    --white: #ffffff;
 }
 
 div.app-container {
+    /* COLOR FOR TESTING ONLY */
+    background-color: white;
     display: grid;
-    /* FOR TESTING ONLY */
-    background-color: lightcoral;
 }
 
 div.sidebar-area {
-    grid-area: 1 / 1;
-    width: 100%;
-    min-width: 100px;
-    /* FOR TESTING ONLY */
+    /* COLOR FOR TESTING ONLY */
     background-color: var(--skyblue);
+    grid-area: 1 / 1;
+    min-width: 100px;
+    width: 100%;
 }
 
 div.main-text-editor-area {
+    background-color: var(--offwhite);
     /**
      Changing this to 1 / 2 / 1 / 1 spans the entire app-container,
      even underneath the sidebar-area.
     **/
     grid-area: 1 / 2 / 1 / 15;
-    background-color: var(--offwhite);
-    width: 100%;
     height: 100%;
+    width: 100%;
 }

@@ -128,7 +128,7 @@ export default function MainTextArea({}) {
         <div className={MAIN_TEXT_EDITOR_CONTAINER_ID}>
             <RichTextEditor
                 className={MAIN_TEXT_EDITOR_ID}
-                immediatelyRender={true}
+                immediatelyRender={false}
                 ref={rteRef}
                 extensions={extensions}
                 content={"<p>Welcome to Writer.AI!  Start typing here</p>"}

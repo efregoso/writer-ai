@@ -12,7 +12,7 @@ div.sidebar-container {
     height: 100%;
     margin: 0px 0px;
     max-width: 150px;
-    opacity: 60%;
+    opacity: 65%;
     width: 100%;
     word-wrap: break-word;
 }
@@ -38,8 +38,13 @@ div.hide-sidebar-toggle-container {
 
 button.sidebar-button {
     cursor: inherit;
+    font-weight: bold;
+    height: 100%;
+    padding: inherit;
+    width: 100%;
 }
 
 button#hide-sidebar-toggle {
     cursor: inherit;
+    font-weight: normal
 }
