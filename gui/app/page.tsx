@@ -1,6 +1,6 @@
 import 'react';
 import './page.css';
-import MainTextArea from './ui/components/main_text_area/main_text_editor';
+import MainTextEditor from './ui/components/main_text_editor/main_text_editor';
 import Sidebar from './ui/components/sidebar/sidebar';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <Sidebar></Sidebar>
       </div>
       <div className="main-text-editor-area">
-        <MainTextArea></MainTextArea>
+        <MainTextEditor></MainTextEditor>
       </div>
     </div>
   );

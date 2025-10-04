@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef } from 'react';
-import StarterKit from "@tiptap/starter-kit";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
@@ -55,13 +54,14 @@ import {
     TableImproved,
     type RichTextEditorRef,
 } from "mui-tiptap";
+
 import { 
     MAIN_TEXT_EDITOR_CONTAINER_ID,
     MAIN_TEXT_EDITOR_ID,
 } from '../utils/constants';
 import './main_text_editor.css';
 
-export default function MainTextArea({}) {
+export default function MainTextEditor({}) {
     const rteRef = useRef<RichTextEditorRef>(null);
 
     const extensions = [
